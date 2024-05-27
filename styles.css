@@ -1,44 +1,25 @@
-header{
-    background-color: white;
+.logo{
+    height: 10vh;
+    margin: 1vh 0 1vh 1vh;
+    
 }
 nav{
     background-color: darkblue;
-    padding: 2px;
-    font-weight: 600;
 }
-.menu li{
-    list-style: none;
-    display: inline-block;
-    padding-left: 250px;
-}
-nav a{
+nav>div>div>a{
     text-decoration: none;
     color: white;
 }
-.logo img{
-    width: 250px;
-} 
-main{
-    display: flex;
+nav>div>div{
+    height: 5vh;
 }
-main span img{
-    padding-left: 100px;
-}
-main p{
-    padding-top: 30px;
-    padding-right: 300px;
-}
-div p{
-    padding-left: 800px;
-    padding-top: 100px;
+.containerMargins{
+    margin: 5vh;
 }
 footer{
     background-color: darkblue;
-    padding: 40px;
-    margin-top: 100px;
-}
-footer ul li{
-    display: inline;
     color: white;
-    padding-left: 300px;
-}   
+}
+.footerSize{
+    padding: 5vh 0 5vh 0;
+}
