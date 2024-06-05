@@ -1,41 +1,127 @@
+*{
+    box-sizing: border-box;
+}
 .logo{
-    height: 10vh;
-    margin: 1vh 0 1vh 1vh;
-    
+    width: 20%;
+    padding: 1.5%;
+}
+.i{
+    background-color: darkblue;
+    display: none;
+    flex-direction: column;
+    align-items: end;
+}
+i{
+    color: white;
+    padding: 2% 3% 2% 0;
 }
 nav{
     background-color: darkblue;
 }
-nav>div>div>a{
+a{
     text-decoration: none;
     color: white;
 }
-nav>div>div{
-    height: 5vh;
-}
+nav>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-footer{
-    background-color: darkblue;
-    color: white;
 }
-.footerSize{
-    padding: 5vh 0 5vh 0;
-}
-.titleStyle{
-    color: darkblue;
-    
-}
-.sectionMargins{
-    margin: 2%;
+nav>div>div{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 h1{
-    padding-top: 1vh;
-    padding-bottom: 4vh;
+    text-align: center;
+    color: darkblue;
+    padding: 2% 0 3% 0;
+}
+section>div>div{
+    margin: 0 3% 3% 3%;
+}
+.s1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+.img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.imgdescription{
+    width:50%;
+    text-align: center;
+}
+section>div>div>div>img{
+    width: 70%;
 }
 h2{
     color: darkblue;
-    padding-bottom: 3%;
+    margin-bottom: 5%;
 }
-.rowSpacing{
-    margin-top: 1vh;
+
+
+
+.br{
+    padding: 0.05%;
+    margin: 0 10% 0 10%;
+    background-color: black;
+}
+footer>div{
+    background-color: darkblue;
+    color: white;
+    align-items: center;
+}
+footer>div>div{
+    padding: 2%;
+}
+
+@media screen and (max-width:1024px) {
+    .logo{
+        width: 25%;
+        padding: 2%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .logo{
+        width: 30%;
+        padding: 2%;
+
+    }
+    header>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        display: none;
+    }
+    .s1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .imgdescription{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+    section>div>div>div>img{
+        width: 80%;
+    }
+    .i{
+        display: flex;
+    flex-direction: column;
+    align-items: end;
+    }
+    
 }
