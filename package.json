@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-desarrollo-web",
+  "version": "1.0.0",
+  "description": "proyecto de sitio web para curso de desarrollo web",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianporrovecchio/ProyectoSitioWeb.git"
+  },
+  "keywords": [
+    "proyecto",
+    "web",
+    "sitio",
+    "maquetado",
+    "css"
+  ],
+  "author": "julian porrovecchio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianporrovecchio/ProyectoSitioWeb/issues"
+  },
+  "homepage": "https://github.com/julianporrovecchio/ProyectoSitioWeb#readme"
+}
