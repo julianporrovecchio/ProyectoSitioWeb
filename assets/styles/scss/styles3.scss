@@ -1,50 +1,131 @@
-header{
-    background-color: white;
+*{
+    box-sizing: border-box;
 }
+.logo{
+    width: 20%;
+    padding: 1.5%;
+}
+.i{
+    background-color: darkblue;
+    display: none;
+    flex-direction: column;
+    align-items: end;
+    
+}
+i{
+    color: white;
+    padding: 2% 3% 2% 0;
+}
+
 nav{
     background-color: darkblue;
-    padding: 2px;
-    font-weight: 600;
+    
 }
-.menu li{
-    list-style: none;
-    display: inline-block;
-    padding-left: 250px;
-}
-nav a{
+a{
     text-decoration: none;
     color: white;
 }
-.logo img{
-    width: 250px;
-    padding-left: 0%;
-    padding-bottom: 0%;
-} 
-section h1{
-    padding-left: 850px;
-    padding-top: 20px;
-    color: darkblue;
+nav>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
-section p{
-    padding-left: 700px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+nav>div>div{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
-div img{
-    width: 300px;
-    padding-left: 250px;
-    padding-bottom: 40px
+section{
+    margin: 0 15% 0 15%;
+    h1{
+        color: darkblue;
+        text-align: center;
+        margin: 5vh 0 8vh 0;
+
+    }
+    div.description{
+        margin-bottom: 5vh;
+        
+        form{
+            display: flex;
+        flex-direction: column;
+            
+            label{
+                margin-top: 2vh;
+            }
+        }
+       
+        
+    }
+    div.email{
+        margin-bottom: 10vh;
+        form{
+            input{
+                width: 30%;
+            }
+        }
+    }
+
+
+
+
 }
-div p{
-    padding-left: 820px;
-}
-footer{
+
+
+
+footer>div{
     background-color: darkblue;
-    padding: 40px;
-    margin-top: 100px;
-}
-footer ul li{
-    display: inline;
     color: white;
-    padding-left: 300px;
-}   
+    align-items: center;
+}
+footer>div>div{
+    padding: 2%;
+}
+
+@media screen and (max-width:1024px) {
+    .logo{
+        width: 25%;
+        padding: 2%;
+    }
+    section{
+        div.email{
+            form{
+                input{
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .logo{
+        width: 30%;
+        padding: 2%;
+
+    }
+    header>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        display: none;    
+    
+    }
+    
+    .i{
+        display: flex;
+    flex-direction: column;
+    align-items: end;
+    }
+    section{
+        div.email{
+            form{
+                input{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

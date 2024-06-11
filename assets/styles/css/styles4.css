@@ -1,49 +1,116 @@
-header {
-  background-color: white;
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 20%;
+  padding: 1.5%;
+}
+
+.i {
+  background-color: darkblue;
+  display: none;
+  flex-direction: column;
+  align-items: end;
+}
+
+i {
+  color: white;
+  padding: 2% 3% 2% 0;
 }
 
 nav {
   background-color: darkblue;
-  padding: 2px;
-  font-weight: 600;
 }
 
-.menu li {
-  list-style: none;
-  display: inline-block;
-  padding-left: 250px;
-}
-
-nav a {
+a {
   text-decoration: none;
   color: white;
 }
 
-.logo img {
-  width: 250px;
+nav > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-section h1 {
+nav > div > div {
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+h1 {
   color: darkblue;
-  padding-left: 40px;
-  padding-bottom: 30px;
-  padding-top: 40px;
+  text-align: center;
+  margin: 5vh 0 8vh 0;
 }
 
-section form {
-  padding-left: 40px;
+p {
+  margin: 0 20% 0 20%;
 }
 
-footer {
+div.img-row {
+  margin: 8%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div.img-row .img-1 {
+  width: 30%;
+}
+div.img-row .img-1 img {
+  width: 100%;
+}
+div.img-row .img-2 {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+div.img-row .img-2 img {
+  width: 100%;
+}
+div.img-row .img-3 {
+  width: 30%;
+}
+div.img-row .img-3 img {
+  width: 100%;
+}
+
+footer > div {
   background-color: darkblue;
-  padding: 40px;
-  margin-top: 100px;
+  color: white;
+  align-items: center;
 }
 
-footer ul li {
-  display: inline;
-  color: white;
-  padding-left: 300px;
+footer > div > div {
+  padding: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 25%;
+    padding: 2%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 30%;
+    padding: 2%;
+  }
+  header > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    display: none;
+  }
+  .i {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
 }
 
 /*# sourceMappingURL=styles4.css.map */

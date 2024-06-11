@@ -3,42 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consultas</title>
-    <link rel="stylesheet" href="./../assets/styles/css/styles4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./../assets/styles/css/styles3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Car Work</title>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="./../assets/Logo Car Work.png" alt="logo de la empresa">
-        </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="./../index.html">Inicio</a></li>
-                <li><a href="./sobrenosotros.html">Sobre Nosotros</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./consultastecnicas.html">Consultas</a></li>
-                <li><a href="./tienda.html">Tienda</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <h1>Realizanos tu consulta aquí</h1><!--Decorado con imagen de flecha apuntando al text area-->
-        <form>
-            <textarea id="textarea" name="textarea" cols="50" rows="15"></textarea>
-            <label for="textarea">Describe tu problema</label>
-            <br>
-            <input type="email" name="fieldUserEmail" id="useremail">
-            <label for="usereamail">Envianos tu email para que podamos responderte!</label>
+    <div class="container-fluid">
+        <header>
+            <div class="row">
+                <img class="logo"  src="./../assets/Logo Car Work.png" alt="Logo">
+            </div>
+            <div class="i">
+                <i class="fas fa-bars"></i>
+            </div> 
+            <nav>
+                <div class="row text-center">
+                    <div class="col-2">
+                        <a href="./../index.html">Inicio</a>
 
-        </form>
-    </section>
-    <footer>
-        <ul>
-            <li>Pt. Peron 2186, San Miguel, Buenos Aires</li>
-            <li>carwork(Instagram)</li>
-            <li>Contactos: 1168534807</li>
-        </ul>
-    </footer>
+                    </div>
+                    <div class="col-2">
+                        <a href="./sobrenosotros.html">Nosotros</a>
+
+                    </div>
+                    <div class="col-2">
+                        <a href="./servicios.html">Servicios</a>
+
+                    </div>
+                    <div class="col-2">
+                        <a href="./consultastecnicas.html">Consultas</a>
+
+                    </div>
+                    <div class="col-2">
+                        <a href="./tienda.html">Tienda</a>
+
+                    </div>
+
+                </div>
+            </nav>
+        </header>    
+
+        <section>
+            <h1>Realizanos tu consulta aquí</h1>
+            <div class="description">
+            <form>
+                <textarea id="textarea" name="textarea" cols="150" rows="20"></textarea>
+                <label for="textarea">Describe tu problema</label>
+            </form>
+            </div>
+            <div class="email">
+                <form>
+                
+                <input type="email" name="fieldUserEmail" id="useremail">
+                <label for="usereamail">Envianos tu email para que podamos responderte!</label>
     
+            </form>
+            </div>
+
+        </section>
+
+
+            
+        <footer>
+            <div class="row text-center">
+                <div class="col-4">Pte. Peron 2186, Buenos Aires</div>
+                <div class="col-4">carwork</div>
+                <div class="col-4">1168534807</div>
+            </div>
+        </footer>    
+    </div>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
