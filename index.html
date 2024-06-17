@@ -10,14 +10,28 @@
     <link rel="stylesheet" href="./assets/styles/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
+<!--Faltan ciertos parametros esteticos generales que voy a incluir para la entrega final, ademas de la información faltante-->
 <body>
     <div class="container-fluid">
         <header>
             <div class="row">
                 <img class="logo"  src="./assets/Logo Car Work.png" alt="Logo">
             </div>
-            <div class="i">
-                <i class="fas fa-bars"></i>
+            <!--El menu desplegable no esta terminado aun, quiero cambiarlos a los colores del sitio-->
+            <div class="i dropdown">
+                <button class="btn  dropdown-toggle" data-bs-toggle="dropdown">
+                    <i class="fas fa-bars">
+
+                    </i></button>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="./pages/servicios.html">Servicios</a></li>
+                        <li><a class="dropdown-item" href="./pages/tienda.html">Tienda</a></li>
+                        <li><a class="dropdown-item" href="./pages/consultastecnicas.html">Consultas</a></li>
+                        <li><a class="dropdown-item" href="./pages/sobrenosotros.html">Nosotros</a></li>
+                        
+
+                    </ul>
+                
             </div> 
             <nav>
                 <div class="row text-center">
@@ -81,6 +95,7 @@
                 Car Work es una empresa familiar que cuenta con mas de 30 años de experiencia en el mundo del Audiocar y mantenimiento del automóvil. Nos caracteriza la pasión y el estusiasmo al momento de brindar servicios y resolver problemas a nuestros clientes. Nuestra reputación, con decenas de concecionarias asociadas y miles de clientes alrededor del país nos respalda.
             </p>
         </div>
+        <!--Quiero agregar iconos en el footer para mejorarlo esteticamente-->
         <footer>
             <div class="row text-center">
                 <div class="col-4">Pte. Peron 2186, Buenos Aires</div>
@@ -94,4 +109,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+<!--Para todo el sitio se utilizo bootstrap y mis propios métodos de manera híbrida, teniendo en cuenta la comodidad de cada herramienta a la hora de resolver problemas-->
 </html>
