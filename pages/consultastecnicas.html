@@ -61,22 +61,45 @@
 
         <section>
             <h1>Realizanos tu consulta aquí</h1>
-            <div class="description">
-            <form>
-                <textarea id="textarea" name="textarea" cols="150" rows="20"></textarea>
-                <label for="textarea">Describe tu problema</label>
-            </form>
-            </div>
-            <div class="email">
+            <div class="formulario">
                 <form>
-                
-                <input type="email" name="fieldUserEmail" id="useremail">
-                <label for="usereamail">Envianos tu email para que podamos responderte!</label>
+                <div class="form-group">
+                    <textarea class="form-control"  name="textDescription" id="text-area-1" rows="20" placeholder="Describe tu problema"></textarea>
+                </div>
+                <div class="select-form">
+                    <div class="form-group">
+                        <label for="text-area-3">Selecciona la marca de tu vehículo</label>
+                        <select multiple class="form-control" name="car" id="text-area-3">
+                            <option>Toyota</option>
+                            <option>Peugeot</option>
+                            <option>Renault</option>
+                            <option>Fiat</option>
+                            <option>Ford</option>
+                            <option>Citroen</option>
+                        </select>
     
-            </form>
+                    </div>
+    
+                </div>
+                <div class="email-form">
+                    <div class="form-group">
+                        <label for="text-area-2">Envianos tu email para que podamos responderte!</label>
+                        <input type="email" class="form-control" name="emailAdress" id="text-area-2" placeholder="email">
+    
+                    </div>
+                </div>
+                <div class="send-button">
+                    <button type="button" class="btn btn-secondary">Enviar</button>
+    
+                </div>
+                
+    
+                </form>
             </div>
 
         </section>
+
+        
 
 
             
