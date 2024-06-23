@@ -34,8 +34,6 @@ nav>div>div{
     padding-top: 0.5%;
     padding-bottom: 0.5%;
 }
-
-
 main{
     margin: 3% 2% 0 2%;
 }
@@ -52,10 +50,18 @@ main>div{
     width: 40%;
     align-content: center;
     text-align: center;
-
+    font-size: large;
+    line-height: 30px;
 }
 .description1{
-    margin: 2% 3% 5% 3%;
+    margin: 5% 5% 5% 5%;
+    p{
+        color: white;  
+        background-color: darkblue;
+        border-radius: 10px;
+        line-height: 40px;
+        padding: 3vh 1vw 3vh 1vw;
+    }
 }
 body>div>div>p{
     margin: 0;
@@ -63,7 +69,7 @@ body>div>div>p{
 }
 .br{
     padding: 0.05%;
-    margin: 0 10% 0 10%;
+    margin: 2vh 10% 0 10%;
     background-color: black;
 }
 footer>div{
@@ -74,15 +80,12 @@ footer>div{
 footer>div>div{
     padding: 2%;
 }
-
-
 @media screen and (max-width:1024px) {
     .logo{
         width: 25%;
         padding: 2%;
     }
 }
-
 @media screen and (max-width:480px) {
     .logo{
         width: 30%;
@@ -104,6 +107,9 @@ footer>div>div{
         align-items: center;
         
     }
+    main{
+        margin: 5vh 0 0 0;
+    }
     .carouselImages{
         width: 95%;
         margin: 3%;
@@ -111,7 +117,19 @@ footer>div>div{
     .carouselP{
         width: 95%;
         text-align: center;
+        line-height: 30px;
+        padding: 3vh 3vw 3vh 3vw;
+        font-size: medium;
     
+    }
+    .description1{
+        margin: 10% 5% 10% 5%;
+        p{
+            border-radius: 10px;
+            line-height: 32px;
+            padding: 3vh 3vw 3vh 3vw;
+            
+        }
     }
     .i{
         display: flex;

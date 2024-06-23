@@ -45,8 +45,12 @@ h1 {
   margin: 5vh 0 8vh 0;
 }
 
-p {
-  margin: 0 20% 0 20%;
+div.box p {
+  margin: 0 15% 0 15%;
+  line-height: 35px;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 3vh;
 }
 
 div.img-row {
@@ -110,6 +114,42 @@ footer > div > div {
     display: flex;
     flex-direction: column;
     align-items: end;
+  }
+  div.box {
+    margin-top: 10vh;
+  }
+  div.box p {
+    margin: 10% 10% 0 10%;
+    line-height: 35px;
+    font-weight: 600;
+    padding-top: 3vh;
+  }
+  div.img-row {
+    margin: 8% 8% 20% 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.img-row .img-1 {
+    width: 90%;
+    margin-top: 8vh;
+  }
+  div.img-row .img-1 img {
+    width: 100%;
+  }
+  div.img-row .img-2 {
+    width: 90%;
+    margin-top: 10vh;
+  }
+  div.img-row .img-2 img {
+    width: 100%;
+  }
+  div.img-row .img-3 {
+    width: 90%;
+    margin-top: 10vh;
+  }
+  div.img-row .img-3 img {
+    width: 100%;
   }
 }
 

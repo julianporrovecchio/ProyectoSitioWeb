@@ -114,6 +114,8 @@ footer>div>div{
     }
     .img{
         width: 100%;
+        margin-bottom: 6vh;
+        margin-top: 4vh;
     }
     section>div>div>div>img{
         width: 80%;
@@ -122,6 +124,9 @@ footer>div>div{
         display: flex;
     flex-direction: column;
     align-items: end;
+    }
+    h1{
+        margin-top: 5vh;
     }
     
 }
